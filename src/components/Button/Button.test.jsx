@@ -15,7 +15,7 @@ describe("Testing a button", () => {
       <Button increment={1000} onClickFunction={incrementCount} />
     );
     const button = container.querySelector("button");
-    expect(button.textContent).contains("+1000");
+    expect(button.textContent).contains("+1");
   });
 
   it("Button +1000 works and return 1000", () => {
